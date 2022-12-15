@@ -1,0 +1,144 @@
+body{
+    background-color: black;
+}
+.text{
+    color: aliceblue;
+}
+.block-photo.element-animation{
+    padding:40px;
+    margin:100px;
+    -webkit-transform: rotate(-5deg) scale(0.95);
+    -ms-transform:rotate(-5deg) scale(0.95);
+    transform: rotate(-5deg) scale(0.95);
+    -webkit-transition: -webkit-transform 1.5s;
+    transition:-webkit-transform 1.5s;
+    -o-transition: transform 1.5s;
+    transition: transform 1.5s;
+    transition: transform 1.5s, -webkit-transform 1.5s;
+}
+
+.block-photo.element-animation.element-show{
+    -webkit-transform: rotate(0) scale(1);
+    -ms-transform:rotate(0) scale(1);
+    transform: rotate(0) scale(1);
+}
+.block-title.element-animation {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    opacity: 0;
+    -webkit-transform: translateX(-20px);
+    -ms-transform: translateX(-20px);
+    transform: translateX(-20px);
+    -webkit-transition: all 1.5s;
+    -o-transition: all 1.5s;
+    transition: all 1.5s;
+}
+.block-title.element-animation.element-show {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+}
+.block-title.element-animation {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    opacity: 0;
+    -webkit-transform: translateX(-20px);
+    -ms-transform: translateX(-20px);
+    transform: translateX(-20px);
+    -webkit-transition: all 1.5s;
+    -o-transition: all 1.5s;
+    transition: all 1.5s;
+}
+.block-title.element-animation.element-show {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+}
+.block-title_1.element-animation {
+  font-family: 'Playfair Display', serif;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  opacity: 0;
+  -webkit-transform: translateX(-20px);
+  -ms-transform: translateX(-20px);
+  transform: translateX(-20px);
+  -webkit-transition: all 1.5s;
+  -o-transition: all 1.5s;
+  transition: all 1.5s;
+}
+.block-title_1.element-animation.element-show {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+}
+.block-text.element-animation{
+    font-family: 'Roboto';
+    padding-left: 170px;
+    padding-right: 700px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    opacity: 0;
+    -webkit-transition: opacity 1.5s;
+    -o-transition: opacity 1.5s;
+    transition: opacity 1.5s;
+}
+.block-text.element-animation.element-show{
+    opacity: 1;
+}
+.block-textt.element-animation{
+  padding-left: 720px;
+  padding-right: 180px;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: opacity 1.5s;
+  -o-transition: opacity 1.5s;
+  transition: opacity 1.5s;
+}
+.block-textt.element-animation.element-show{
+  opacity: 1;
+}
+.green {
+    background-color: black
+  }
+  
+  .red {
+    background-color: black;;
+  }
+  
+  /* Задаем высоту большим блокам, чтобы у нас на странице получится скролл */
+  .element-big  {
+    width: 100%;
+    height: 600px;
+  }
+  
+  .element-animation {
+    margin: 2rem 0;
+    font-size: 3rem;
+    
+    /* Скроем элемент в начальном состоянии */
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  
+  .element-animation.element-show {
+    opacity: 1;
+    transition: all 1.5s;
+    transform: translateY(0%);
+  }
+  .font{
+    color:white;
+    font-size: 40px;
+    opacity: 0.5;
+
+  }

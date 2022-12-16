@@ -142,3 +142,9 @@ body{
     opacity: 0.5;
 
   }
+.back{
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  opacity: 0.5;
+}

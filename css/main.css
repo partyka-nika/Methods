@@ -105,39 +105,40 @@ body{
   -o-transition: opacity 1.5s;
   transition: opacity 1.5s;
 }
-.block-textt.element-animation.element-show{
+.block-textt.element-animation.element-show {
   opacity: 1;
 }
 .green {
-    background-color: black
+    background-color: blackж
   }
   
-  .red {
-    background-color: black;;
-  }
+.red {
+    background-color: black;
+}
+
+.element-big {
+width: 100%;
+height: 600px;
+}
   
-  .element-big  {
-    width: 100%;
-    height: 600px;
-  }
-  
-  .element-animation {
-    margin: 2rem 0;
-    font-size: 3rem;
-        opacity: 0;
-    transform: translateY(20px);
-  }
-  
-  .element-animation.element-show {
-    opacity: 1;
-    transition: all 1.5s;
-    transform: translateY(0%);
-  }
+.element-animation {
+ margin: 2rem 0;
+ font-size: 3rem;
+ opacity: 0;
+ transform: translateY(20px);
+}
+
+.element-animation.element-show {
+opacity: 1;
+transition: all 1.5s;
+transform: translateY(0%);
+}
+
 .bolt {
-    position:fixed;
-    left: 20px;
-    top: 20px;
-    font-size: 25px;
+position:fixed;
+left: 20px;
+top: 20px;
+font-size: 25px;
 }
 .bolt a {
 width: 50px;

@@ -116,7 +116,6 @@ body{
     background-color: black;;
   }
   
-  /* Задаем высоту большим блокам, чтобы у нас на странице получится скролл */
   .element-big  {
     width: 100%;
     height: 600px;
@@ -125,9 +124,7 @@ body{
   .element-animation {
     margin: 2rem 0;
     font-size: 3rem;
-    
-    /* Скроем элемент в начальном состоянии */
-    opacity: 0;
+        opacity: 0;
     transform: translateY(20px);
   }
   
@@ -136,15 +133,24 @@ body{
     transition: all 1.5s;
     transform: translateY(0%);
   }
-  .font{
-    color:white;
-    font-size: 40px;
-    opacity: 0.5;
-
-  }
-.back{
-  color: white;
-  text-align: center;
+ .bolt{
+  position: fixed;
+  left: 20px;
+  top: 20px;
   font-size: 25px;
-  opacity: 0.5;
+}
+.bolt a{
+  width: 50px;
+  height: 50px;
+  background: white;
+  color: black;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 50px;
+  display: block;
+  transition: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  opacity: 0.85;
+}
+.bolt a:hover{
+  background: gainsboro;
 }

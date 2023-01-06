@@ -133,7 +133,11 @@ opacity: 1;
 transition: all 1.5s;
 transform: translateY(0%);
 }
-
+.font {
+color:white;
+font-size: 40px;
+opacity: 0.5;
+}
 .bolt {
 position:fixed;
 left: 20px;
